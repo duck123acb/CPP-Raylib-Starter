@@ -4,6 +4,7 @@ int main()
 {
         InitWindow(1000, 600, "Application");
 	SetWindowState(FLAG_VSYNC_HINT);
+	SetTargetFPS(60);
 
         while (!WindowShouldClose())
         {
